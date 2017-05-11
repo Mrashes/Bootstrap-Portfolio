@@ -2,27 +2,30 @@
 <html>
 	<head>
 		<title>Rashes' Portfolio</title>
-		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<!-- bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	</head>
 	
 	<body>
-		<header>
-			<h1>Max Rashes</h1>
-			<div class="local_links">
+		<header class="row">
+			<div class="col-md-3">
+				<h1>Max Rashes</h1>
+			</div>
+			<div class="col-md-6"></div>
+			<div class="col-md-3">
 				<a href="index.html">About</a>
 				<a href="portfolio.html">Portfolio</a>
 				<a href="contact.html">Contact</a>
 			</div>
 		</header>
-		<div class="flexparent">
-			<div class="about">
-				<div>
+		<div class="row">
+			<div class="col-md-8">
+				<div class="page-header">
 					<h2>About Me</h2>
 				</div>
 				<div>
 					<div class="float">
-						<img src="assets/images/photo-profile.jpg" alt="Profile Picture">
+						<img src="assets/images/photo-profile.jpg" class="img-responsive" alt="Profile Picture">
 					</div>
 					<div>
 						<p>I'm currently working at the Museum of Science and Industry in Chicago as a STEAM educator.  The museum dates back to 1933 when they opened their first exhibit, the one I work with, The Coal Mine.  Working there has been alot of fun, but I want to find a career path that I can follow.  Website software development is my path</p>
@@ -32,13 +35,13 @@
 				</div>
 			</div>
 	<!-- Under this is a separate box -->
-			<div class="connect">
+			<div class="col-md-3">
 				<div>
 					<h3>Connect with Me</h3>
 				</div>
 				<div class="images">
 					<div class="margin">
-					<a href="https://github.com/Mrashes">
+					<a href="https://github.com/Mrashes" >
 						<img src="assets/images/github.png" alt="Github" width="60">
  					</a>
  					</div>
